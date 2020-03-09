@@ -5,3 +5,4 @@ C:\Users\124634\Documents\Visual Studio 2017\Projects\SQLBuilderApp\JSONToSQLBui
 C:\Users\124634\Documents\Visual Studio 2017\Projects\SQLBuilderApp\JSONToSQLBuilder\obj\Debug\netstandard1.4\JSONToSQLBuilder.AssemblyInfo.cs
 C:\Users\124634\Documents\Visual Studio 2017\Projects\SQLBuilderApp\JSONToSQLBuilder\obj\Debug\netstandard1.4\JSONToSQLBuilder.dll
 C:\Users\124634\Documents\Visual Studio 2017\Projects\SQLBuilderApp\JSONToSQLBuilder\obj\Debug\netstandard1.4\JSONToSQLBuilder.pdb
+C:\Users\124634\Documents\Visual Studio 2017\Projects\SQLBuilderApp\JSONToSQLBuilder\obj\Debug\netstandard1.4\JSONToSQLBuilder.csprojAssemblyReference.cache
