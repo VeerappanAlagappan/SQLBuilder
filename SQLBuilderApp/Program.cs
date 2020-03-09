@@ -113,7 +113,7 @@ namespace SQLBuilderApp
                 List<String> lstJsonItem = new List<string>();
                 int BracketCount = 0;
                 Stream s = new FileStream(fileName, FileMode.OpenOrCreate, FileAccess.ReadWrite);
-                string ExampleJSON = new StreamReader(s).ReadToEnd().Replace(System.Environment.NewLine, string.Empty).Trim();
+                string ExampleJSON = new StreamReader(s).ReadToEnd().Replace("\n", string.Empty).Replace("\r", string.Empty).Trim();
                 StringBuilder Json = new StringBuilder();
 
                 foreach (char c in ExampleJSON)
