@@ -1,0 +1,7 @@
+C:\Users\124634\Documents\Visual Studio 2017\Projects\SQLBuilderApp\JSONToSQLBuilder\bin\Debug\netstandard1.4\JSONToSQLBuilder.deps.json
+C:\Users\124634\Documents\Visual Studio 2017\Projects\SQLBuilderApp\JSONToSQLBuilder\bin\Debug\netstandard1.4\JSONToSQLBuilder.dll
+C:\Users\124634\Documents\Visual Studio 2017\Projects\SQLBuilderApp\JSONToSQLBuilder\bin\Debug\netstandard1.4\JSONToSQLBuilder.pdb
+C:\Users\124634\Documents\Visual Studio 2017\Projects\SQLBuilderApp\JSONToSQLBuilder\obj\Debug\netstandard1.4\JSONToSQLBuilder.AssemblyInfoInputs.cache
+C:\Users\124634\Documents\Visual Studio 2017\Projects\SQLBuilderApp\JSONToSQLBuilder\obj\Debug\netstandard1.4\JSONToSQLBuilder.AssemblyInfo.cs
+C:\Users\124634\Documents\Visual Studio 2017\Projects\SQLBuilderApp\JSONToSQLBuilder\obj\Debug\netstandard1.4\JSONToSQLBuilder.dll
+C:\Users\124634\Documents\Visual Studio 2017\Projects\SQLBuilderApp\JSONToSQLBuilder\obj\Debug\netstandard1.4\JSONToSQLBuilder.pdb

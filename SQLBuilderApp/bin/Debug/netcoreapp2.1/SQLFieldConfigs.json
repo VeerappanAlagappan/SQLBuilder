@@ -1,0 +1,175 @@
+﻿{
+  "QueryStatment": "SELECT",
+  "Tables": [ "TABLEA", "TABLEB", "TABLEC", "TABLED" ],
+  "Columns": [
+    {
+      "fieldName": "TABLEA.column1"
+    },
+    {
+      "fieldName": "TABLEA.column2"
+    },
+    {
+      "fieldName": "TABLEA.column3"
+    },
+    {
+      "fieldName": "TABLEB.column1"
+    },
+    {
+      "fieldName": "TABLEB.column2"
+    }
+  ],
+  "conditionalColumns": [
+    {
+      "operator": "IN",
+      "fieldName": "TABLEA.column1",
+        "fieldValue": "5",
+        "fieldType": "Number"
+    },
+    {
+        "operator": "Equal",
+        "fieldName": "TABLEA.column2",
+        "fieldValue": "'8'",
+        "fieldType": "Number"
+    },
+    {
+        "operator": ">=",
+        "fieldName": "TABLEB.column2",
+        "fieldValue": "7",
+        "fieldType": "Number"
+    },
+    {
+        "operator": "BETWEEN",
+        "fieldName": "TABLEB.column2",
+        "fieldValue": "2,'1'",
+        "fieldType": "Number"
+    }
+  ],
+  "joinColumns": [
+    {
+      "joinType": "INNER JOIN",
+      "joinColumn1": "TABLEA.column1",
+      "joinColumn2": "TABLEB.column1"
+    },
+    {
+      "joinType": "LEFT JOIN",
+      "joinColumn1": "TABLEB.column1",
+      "joinColumn2": "TABLEC.column1"
+    },
+    {
+      "joinType": "RIGHT JOIN",
+      "joinColumn1": "TABLEB.column1",
+      "joinColumn2": "TABLED.column1"
+    },
+    {
+      "joinType": "INNER JOIN",
+      "joinColumn1": "TABLED.column1",
+      "joinColumn2": "TABLEE.column1"
+    }
+  ]
+
+}
+{
+    "QueryStatment": "SELECT",
+    "Tables": [ "TABLEA" ],
+    "Columns": [
+        {
+            "fieldName": "TABLEA.column1"
+        },
+        {
+            "fieldName": "TABLEA.column2"
+        },
+        {
+            "fieldName": "TABLEA.column3"
+        }
+    ],
+    "conditionalColumns": [
+        {
+            "operator": "IN",
+            "fieldName": "TABLEA.column1",
+            "fieldValue": "'value'",
+            "fieldType": "String"
+        },
+        {
+            "operator": "Equal",
+            "fieldName": "TABLEA.column2",
+            "fieldValue": "767",
+            "fieldType": "Number"
+        }
+    ]
+
+}
+{
+    "QueryStatment": "SELECT",
+    "Tables": [ "TABLEA", "TABLEB", "TABLEC", "TABLED" ],
+    "Columns": [
+        {
+            "fieldName": "TABLEA.column1"
+        },
+        {
+            "fieldName": "TABLEA.column2"
+        },
+        {
+            "fieldName": "TABLEA.column3"
+        },
+        {
+            "fieldName": "TABLEB.column1"
+        },
+        {
+            "fieldName": "TABLEB.column2"
+        }
+    ],
+    "conditionalColumns": [
+        {
+            "operator": "IN",
+            "fieldName": "TABLEA.column1",
+            "fieldValue": "'value'",
+            "fieldType": "String"
+        },
+        {
+            "operator": "<>",
+            "fieldName": "TABLEA.column2",
+            "fieldValue": "4",
+            "fieldType": "Number"
+        },
+        {
+            "operator": ">=",
+            "fieldName": "TABLEB.column2",
+            "fieldValue": "7",
+            "fieldType": "Number"
+        },
+        {
+            "operator": "BETWEEN",
+            "fieldName": "TABLEB.column2",
+            "fieldValue": "2,5",
+            "fieldType": "Number"
+        },
+        {
+            "operator": "LIKE",
+            "fieldName": "TABLEC.column2",
+            "fieldValue": "value"
+        }
+    ],
+    "joinColumns": [
+        {
+            "joinType": "INNER JOIN",
+            "joinColumn1": "TABLEA.column1",
+            "joinColumn2": "TABLEB.column1"
+        },
+        {
+            "joinType": "LEFT JOIN",
+            "joinColumn1": "TABLEB.column1",
+            "joinColumn2": "TABLEC.column1"
+        },
+        {
+            "joinType": "RIGHT JOIN",
+            "joinColumn1": "TABLEB.column1",
+            "joinColumn2": "TABLED.column1"
+        },
+        {
+            "joinType": "INNER JOIN",
+            "joinColumn1": "TABLED.column1",
+            "joinColumn2": "TABLEE.column1"
+        }
+    ]
+
+}

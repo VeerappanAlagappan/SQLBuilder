@@ -1,0 +1,129 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\124634\\Documents\\Visual Studio 2017\\Projects\\SQLBuilderApp\\SQLBuilderApp\\SQLBuilderApp.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\124634\\Documents\\Visual Studio 2017\\Projects\\SQLBuilderApp\\JSONToSQLBuilder\\JSONToSQLBuilder.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\124634\\Documents\\Visual Studio 2017\\Projects\\SQLBuilderApp\\JSONToSQLBuilder\\JSONToSQLBuilder.csproj",
+        "projectName": "JSONToSQLBuilder",
+        "projectPath": "C:\\Users\\124634\\Documents\\Visual Studio 2017\\Projects\\SQLBuilderApp\\JSONToSQLBuilder\\JSONToSQLBuilder.csproj",
+        "packagesPath": "C:\\Users\\124634\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\124634\\Documents\\Visual Studio 2017\\Projects\\SQLBuilderApp\\JSONToSQLBuilder\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\124634\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard1.4"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard1.4": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard1.4": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "target": "Package",
+              "version": "[1.6.1, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\124634\\Documents\\Visual Studio 2017\\Projects\\SQLBuilderApp\\SQLBuilderApp\\SQLBuilderApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\124634\\Documents\\Visual Studio 2017\\Projects\\SQLBuilderApp\\SQLBuilderApp\\SQLBuilderApp.csproj",
+        "projectName": "SQLBuilderApp",
+        "projectPath": "C:\\Users\\124634\\Documents\\Visual Studio 2017\\Projects\\SQLBuilderApp\\SQLBuilderApp\\SQLBuilderApp.csproj",
+        "packagesPath": "C:\\Users\\124634\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\124634\\Documents\\Visual Studio 2017\\Projects\\SQLBuilderApp\\SQLBuilderApp\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\124634\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "C:\\Users\\124634\\Documents\\Visual Studio 2017\\Projects\\SQLBuilderApp\\JSONToSQLBuilder\\JSONToSQLBuilder.csproj": {
+                "projectPath": "C:\\Users\\124634\\Documents\\Visual Studio 2017\\Projects\\SQLBuilderApp\\JSONToSQLBuilder\\JSONToSQLBuilder.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Autofac.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.SqlServer.DACFx": {
+              "target": "Package",
+              "version": "[150.4573.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
